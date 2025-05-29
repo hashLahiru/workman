@@ -86,8 +86,8 @@
                                         <a href="/contact">Contact</a>
                                     </li>
                                     <li>
-                                        <a href="tel:+15551234567">
-                                            <i class="fas fa-phone-alt"></i>&nbsp; +1 (555) 123-4567
+                                        <a href="tel:+94777322398">
+                                            <i class="fas fa-phone-alt"></i>&nbsp; +94 77 732 2398
                                         </a>
                                     </li>
                                 </ul>
@@ -122,9 +122,8 @@
                                     <img src="img/main-logo.png" alt="logo">
                                 </div>
                                 <h3 class="text-white">Postal Address</h3>
-                                <p>Classima a Largest Classified Listing Marketplace
-                                    offers perfect WordPress Ads classified Themes to build
-                                    your own classified websites.</p>
+                                <p>Pitiyagedara, Nugaliyadda, Thalathuoya
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
