@@ -95,7 +95,7 @@
                                         style="width: 30px; height: 30px;">
                                     <div class="ml-3">
                                         <h4 class="fw-bold mb-0" style="font-weight:800;">Address</h4>
-                                        <p class="mb-0 mt-0 pt-0">455/B/1 Peradeniya Road,Kandy, Sri Lanka</p>
+                                        <p class="mb-0 mt-0 pt-0">Pitiyagedara, Nugaliyadda, Thalathuoya </p>
                                     </div>
                                 </div>
                                 <hr class="mb-2 pb-3" />
@@ -104,7 +104,8 @@
                                         style="width: 30px; height: 30px;">
                                     <div class="ml-3">
                                         <h4 class="fw-bold mb-0" style="font-weight:800;">Phone</h4>
-                                        <p class="mb-0 mt-0 pt-0">+94 76 366 5409 / +81 80-9688-7761</p>
+                                        <p class="mb-0 mt-0 pt-0">+94 77 732 2398 / +94 77 648 2130
+                                        </p>
                                     </div>
                                 </div>
                                 <hr class="mb-2 pb-3" />
@@ -113,7 +114,7 @@
                                         style="width: 30px; height: 30px;">
                                     <div class="ml-3">
                                         <h4 class="fw-bold mb-0" style="font-weight:800;">Email</h4>
-                                        <p class="mb-0 mt-0 pt-0">nakayoshilanka2023@gmail.com</p>
+                                        <p class="mb-0 mt-0 pt-0">arrowcontract@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +125,18 @@
         </div>
 
         <div class="container">
-            <div id="googleMap" class="google-map" style="width: 100%; height: 415px;"></div>
+            <div class="google-map" style="width: 100%; height: 415px;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.625189770707!2d80.70608731432003!3d7.284139315515926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae37b8b78047e4d%3A0x2628c0ecdb5f5d90!2sPitiyagedara%2C%20Nugaliyadda%2C%20Thalathuoya%2C%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1717000010000!5m2!1sen!2slk"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
         </div>
     </section>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key={{ config('services.google_maps.api_key') }}&callback=initMap">
+    </script>
 @endsection
